@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto_analyzer"
+version = "0.1.0"
+description = "System analizowania kryptowalut"
+authors = [{name = "Quant Engineer"}]
+dependencies = [
+    "SQLAlchemy>=2.0.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "psycopg[binary]",
+    "requests>=2.31.0",
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "pandas>=2.0.0"
+]
